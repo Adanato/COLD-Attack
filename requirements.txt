@@ -10,7 +10,6 @@ appdirs==1.4.4
 async-timeout==4.0.3
 attributedict==0.3.0
 attrs==23.1.0
-autoawq==0.1.7
 beautifulsoup4==4.12.2
 bert-score==0.3.13
 bitsandbytes==0.41.2.post2
@@ -19,29 +18,28 @@ blis==0.7.11
 boltons==23.1.1
 boto3==1.33.6
 botocore==1.33.6
-Brotli @ file:///tmp/abs_ecyw11_7ze/croots/recipe/brotli-split_1659616059936/work
-bs4==0.0.1
+Brotli
 cachetools==5.3.2
 catalogue==2.0.10
-certifi @ file:///croot/certifi_1700501669400/work/certifi
-cffi @ file:///croot/cffi_1700254295673/work
+certifi
+cffi
 cftime==1.6.3
 chardet==5.2.0
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
-click @ file:///croot/click_1698129812380/work
+charset-normalizer
+click==8.1.7
 cloudpathlib==0.16.0
 cloudpickle==3.0.0
 codecov==2.1.13
-colorama @ file:///croot/colorama_1672386526460/work
+colorama==0.4.6
 coloredlogs==15.0.1
 colour-runner==0.1.1
-confection @ file:///croot/confection_1684136476534/work
+confection==0.1.4
 contextlib2==21.6.0
 contourpy==1.2.0
 coverage==7.3.2
-cryptography @ file:///croot/cryptography_1694444244250/work
+cryptography==42.0.5
 cycler==0.12.1
-cymem @ file:///opt/conda/conda-bld/cymem_1651237256138/work
+cymem==2.0.8
 dask==2023.12.1
 DataProperty==1.0.1
 datasets==2.0.0
@@ -78,34 +76,31 @@ httpx==0.25.2
 huggingface-hub==0.17.3
 humanfriendly==10.0
 hydra-core==1.3.2
-idna @ file:///croot/idna_1666125576474/work
+idna
 img2pdf==0.5.1
 importlib-metadata==7.0.0
 importlib-resources==6.1.1
 iniconfig==2.0.0
 inspecta==0.1.3
-Jinja2 @ file:///croot/jinja2_1666908132255/work
+Jinja2
 jmespath==1.0.1
 joblib==1.3.2
 jsonlines==4.0.0
 jsonschema==4.20.0
 jsonschema-specifications==2023.11.2
-just-eval @ file:///home/fangxu/gpt4_eval-main
+just_eval @ git+https://github.com/Re-Align/just-eval.git@3e1a1265e210be1d6ad71624c91da3efc36493ca
 kiwisolver==1.4.5
-langcodes @ file:///opt/conda/conda-bld/langcodes_1643477751144/work
+langcodes==3.3.0
 lm-eval==0.3.0
 locket==1.0.0
 lxml==4.9.4
 Markdown==3.5.1
 markdown-it-py==3.0.0
 markdown2==2.4.10
-MarkupSafe @ file:///opt/conda/conda-bld/markupsafe_1654597864307/work
+MarkupSafe
 matplotlib==3.8.2
 mbstrdecoder==1.1.3
 mdurl==0.1.2
-mkl-fft @ file:///croot/mkl_fft_1695058164594/work
-mkl-random @ file:///croot/mkl_random_1695059800811/work
-mkl-service==2.4.0
 ml-collections==0.1.1
 mpmath==1.3.0
 multidict==6.0.4
@@ -117,30 +112,31 @@ nh3==0.2.14
 ninja==1.11.1.1
 nltk==3.8.1
 numexpr==2.8.7
-numpy @ file:///croot/numpy_and_numpy_base_1695830428084/work/dist/numpy-1.26.0-cp39-cp39-linux_x86_64.whl#sha256=6c17acd1e1c4a5ebb5d14a2b7abe3d296469c0dd858a8b623abc1f4603184a9d
-nvidia-cublas-cu12==12.1.3.1
-nvidia-cuda-cupti-cu12==12.1.105
-nvidia-cuda-nvrtc-cu12==12.1.105
-nvidia-cuda-runtime-cu12==12.1.105
-nvidia-cudnn-cu12==8.9.2.26
-nvidia-cufft-cu12==11.0.2.54
-nvidia-curand-cu12==10.3.2.106
-nvidia-cusolver-cu12==11.4.5.107
-nvidia-cusparse-cu12==12.1.0.106
-nvidia-nccl-cu12==2.18.1
-nvidia-nvjitlink-cu12==12.3.101
-nvidia-nvtx-cu12==12.1.105
+numpy==1.24.4
+nvidia-pyindex
+nvidia-cublas-cu12
+nvidia-cuda-cupti-cu12
+nvidia-cuda-nvrtc-cu12
+nvidia-cuda-runtime-cu12
+nvidia-cudnn-cu12
+nvidia-cufft-cu12
+nvidia-curand-cu12
+nvidia-cusolver-cu12
+nvidia-cusparse-cu12
+nvidia-nccl-cu12
+nvidia-nvjitlink-cu12
+nvidia-nvtx-cu12
 oauthlib==3.2.2
 omegaconf==2.3.0
 openai==0.28.0
 optree==0.10.0
 ordered-set==4.1.0
 orjson==3.9.10
-packaging @ file:///croot/packaging_1693575174725/work
+packaging
 pandas==2.1.3
 partd==1.4.1
 pathvalidate==3.2.0
-pathy @ file:///croot/pathy_1674585914374/work
+pathy==0.11.0
 peft==0.6.2
 pikepdf==8.11.2
 Pillow==10.1.0
@@ -148,7 +144,7 @@ plac==1.1.3
 platformdirs==4.0.0
 pluggy==1.3.0
 portalocker==2.8.2
-preshed @ file:///opt/conda/conda-bld/preshed_1651240927559/work
+preshed==3.0.9
 prettytable==3.9.0
 prompt-toolkit==3.0.41
 protobuf==4.23.4
@@ -159,17 +155,17 @@ pyasn1==0.5.1
 pyasn1-modules==0.3.0
 pybind11==2.11.1
 pycountry==22.3.5
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-pydantic @ file:///croot/pydantic_1695798841041/work
+pycparser
+pydantic==1.10.14
 pydub==0.25.1
 Pygments==2.17.2
 pynvml==11.5.0
-pyOpenSSL @ file:///croot/pyopenssl_1690223430423/work
+pyOpenSSL==24.1.0
 pyparsing==3.1.1
 PyPDF2==3.0.1
 pyproject-api==1.6.1
 pysat==3.1.0
-PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
+PySocks
 pytablewriter==1.2.0
 pytest==7.4.4
 python-dateutil==2.8.2
@@ -181,7 +177,7 @@ PyYAML==6.0.1
 referencing==0.31.1
 regex==2023.10.3
 reportlab==4.0.8
-requests @ file:///croot/requests_1690400202158/work
+requests
 requests-oauthlib==1.3.1
 responses==0.18.0
 rich==13.7.0
@@ -202,10 +198,10 @@ sentence-transformers==2.2.2
 sentencepiece==0.1.99
 sentry-sdk==1.39.1
 setproctitle==1.3.3
-shellingham @ file:///croot/shellingham_1669142169426/work
+shellingham==1.5.4
 shortuuid==1.0.11
 six==1.16.0
-smart-open @ file:///opt/conda/conda-bld/smart_open_1651563547610/work
+smart-open==6.4.0
 smmap==5.0.1
 sniffio==1.3.0
 soupsieve==2.5
@@ -213,7 +209,7 @@ spacy==3.7.0
 spacy-legacy==3.0.12
 spacy-loggers==1.0.1
 sqlitedict==2.1.0
-srsly @ file:///croot/srsly_1698702559979/work
+srsly==2.4.8
 starlette==0.27.0
 svgwrite==1.4.3
 sympy==1.12
@@ -225,7 +221,7 @@ tensorboard==2.15.1
 tensorboard-data-server==0.7.2
 termcolor==2.4.0
 texttable==1.7.0
-thinc @ file:///croot/thinc_1684243821484/work
+thinc==8.2.3
 threadpoolctl==3.2.0
 tiktoken==0.5.2
 tokenizers==0.14.1
@@ -236,16 +232,16 @@ torch==2.1.1
 torchaudio==2.1.1
 torchvision==0.16.1
 tox==4.11.4
-tqdm @ file:///croot/tqdm_1679561862951/work
+tqdm==4.66.2
 tqdm-multiprocess==0.0.11
 transformers==4.35.0
 treelib==1.7.0
 triton==2.1.0
 typepy==1.3.2
-typer @ file:///opt/conda/conda-bld/typer_1651237163820/work
+typer==0.9.0
 typing_extensions==4.8.0
 tzdata==2023.3
-urllib3 @ file:///croot/urllib3_1698257533958/work
+urllib3==1.26.18
 uvicorn==0.24.0.post1
 virtualenv==20.25.0
 wandb==0.16.1
